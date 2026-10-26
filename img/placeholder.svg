@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-label="Image coming soon">
+  <rect width="600" height="800" fill="#eceef2"/>
+  <g fill="none" stroke="#b9bfcc" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M240 250l-60 50 32 38 28-22v184h120V316l28 22 32-38-60-50c-8 22-30 36-60 36s-52-14-60-36z"/>
+  </g>
+  <text x="300" y="560" font-family="Georgia,serif" font-size="30" fill="#8d94a5" text-anchor="middle">velvet vogue</text>
+  <text x="300" y="600" font-family="sans-serif" font-size="20" fill="#a3a9b8" text-anchor="middle">photo coming soon</text>
+</svg>

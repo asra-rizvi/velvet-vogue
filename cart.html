@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart | Velvet Vogue</title>
+    <meta name="description" content="Review the items in your cart.">
+    <meta name="theme-color" content="#111111">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23111'/%3E%3Ctext x='32' y='43' font-size='30' text-anchor='middle' fill='%23fff' font-family='Georgia,serif'%3EVV%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Playfair+Display:wght@500;600;700&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pages/cart.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header>
+        <a href="index.html" class="logo"><h1>velvet vogue</h1></a>
+        <ul class="navmenu">
+            <li><a href="index.html">home</a></li>
+            <li><a href="shop.html">shop all</a></li>
+            <li><a href="ourstory.html">our story</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="login.html" data-auth-link>sign in</a></li>
+        </ul>
+        <div class="nav-icon">
+            <a href="shop.html" aria-label="Search"><i class='bx bx-search-alt'></i></a>
+            <a href="login.html" aria-label="Sign in"><i class='bx bx-user'></i></a>
+            <a href="cart.html" aria-label="Cart"><i class='bx bx-cart'></i></a>
+            <a href="wishlist.html" aria-label="Wishlist"><i class='bx bx-heart'></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <main id="main">
+<div class="cart-page">
+        <h1>Shopping Cart</h1>
+        <p class="cart-breadcrumb"><a href="index.html">Home</a> › <a href="shop.html">Shop All</a> › Cart</p>
+
+        <div class="cart-layout" id="cart-layout">
+            <!-- Populated by JS -->
+        </div>
+    </div>
+    </main>
+    <footer class="contact">
+        <div class="contact-info">
+            <div class="first-info">
+                <h1>Velvet Vogue</h1>
+                <p>32, Unknown Street, Colombo, Sri Lanka.</p>
+                <p><a href="tel:+94113456782">0113456782</a></p>
+                <p><a href="mailto:info@velvetvogue.lk">info@velvetvogue.lk</a></p>
+            </div>
+
+            <div class="social">
+                <h4>Follow Us On</h4>
+                <p><a href="https://facebook.com" rel="noopener"><i class='bx bxl-facebook'></i> Facebook</a></p>
+                <p><a href="https://twitter.com" rel="noopener"><i class='bx bxl-twitter'></i> Twitter</a></p>
+                <p><a href="https://instagram.com" rel="noopener"><i class='bx bxl-instagram'></i> Instagram</a></p>
+                <p><a href="https://linkedin.com" rel="noopener"><i class='bx bxl-linkedin'></i> Linkedin</a></p>
+            </div>
+
+            <div class="second-info">
+                <h4>Quick Links</h4>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="shop.html">Shop All</a></p>
+                <p><a href="wishlist.html">Wishlist</a></p>
+                <p><a href="ourstory.html">Our Story</a></p>
+                <p><a href="contact.html">Contact Us</a></p>
+            </div>
+
+            <div class="third-info">
+                <h4>Support</h4>
+                <p><a href="faq.html">FAQ</a></p>
+                <p><a href="shipping-returns.html">Shipping &amp; Returns</a></p>
+                <p><a href="privacy-terms.html">Terms &amp; Privacy</a></p>
+                <p><a href="profile.html">My Orders</a></p>
+            </div>
+
+            <div class="fourth-info">
+                <h4>Categories</h4>
+                <p><a href="shop.html?category=new-arrivals">New Arrivals</a></p>
+                <p><a href="shop.html?category=denim">Denim Collection</a></p>
+                <p><a href="shop.html?category=casual-wear">Casual Wear</a></p>
+                <p><a href="shop.html?category=formal-wear">Formal Wear</a></p>
+                <p><a href="shop.html?category=summer-collection">Summer Collection</a></p>
+                <p><a href="shop.html?category=luxury-collection">Luxury Collection</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/products.js"></script>
+    <script src="js/backend.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/pages/cart.js"></script>
+</body>
+</html>

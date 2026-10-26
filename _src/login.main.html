@@ -1,0 +1,111 @@
+<div class="auth-page">
+
+    <!-- Left: Decorative Visual -->
+    <div class="auth-visual">
+        <div class="auth-brand">
+            <h1>Velvet<br>Vogue</h1>
+            <p>Colombo · Sri Lanka</p>
+        </div>
+        <div class="auth-tagline">
+            <p>Join thousands of women who trust Velvet Vogue for timeless style and premium quality fashion.</p>
+        </div>
+        <div class="auth-dots">
+            <span></span><span></span><span></span><span></span>
+        </div>
+    </div>
+
+    <!-- Right: Auth Forms -->
+    <div class="auth-panel">
+
+        <!-- Tab Switcher -->
+        <div class="auth-tabs">
+            <div class="auth-tab active" data-tab="login">Sign In</div>
+            <div class="auth-tab" data-tab="register">Create Account</div>
+        </div>
+
+        <!-- Alert Message -->
+        <div class="auth-alert" id="auth-alert"></div>
+
+        <!-- ── LOGIN FORM ── -->
+        <div class="auth-form active" id="login-form">
+            <h2>Welcome back</h2>
+            <p class="subtitle">Sign in to access your account and orders</p>
+
+            <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" id="login-email" placeholder="you@example.com" autocomplete="email">
+            </div>
+
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" id="login-password" placeholder="Enter your password" autocomplete="current-password">
+                <i class='bx bx-hide toggle-pw' id="toggle-login-pw"></i>
+            </div>
+
+            <div class="auth-forgot">
+                <a href="#">Forgot your password?</a>
+            </div>
+
+            <div class="form-check">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Keep me signed in</label>
+            </div>
+
+            <button class="auth-btn" id="login-btn">
+                Sign In
+            </button>
+
+            <div class="auth-divider">or</div>
+
+            <p style="text-align:center; font-size:0.88rem; color:#888;">
+                Don't have an account? 
+                <a href="#" style="color:#5277bc; font-weight:600;" onclick="switchTab('register')">Create one free</a>
+            </p>
+        </div>
+
+        <!-- ── REGISTER FORM ── -->
+        <div class="auth-form" id="register-form">
+            <h2>Create account</h2>
+            <p class="subtitle">Join Velvet Vogue and enjoy exclusive member benefits</p>
+
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" id="reg-name" placeholder="Your full name" autocomplete="name">
+            </div>
+
+            <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" id="reg-email" placeholder="you@example.com" autocomplete="email">
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" id="reg-password" placeholder="Min. 6 characters">
+                    <i class='bx bx-hide toggle-pw' id="toggle-reg-pw"></i>
+                </div>
+                <div class="form-group">
+                    <label>Confirm Password</label>
+                    <input type="password" id="reg-confirm" placeholder="Repeat password">
+                </div>
+            </div>
+
+            <div class="form-check">
+                <input type="checkbox" id="agree-terms" required>
+                <label for="agree-terms">I agree to the <a href="#" style="color:#5277bc;">Terms & Privacy Policy</a></label>
+            </div>
+
+            <button class="auth-btn" id="register-btn">
+                Create Account
+            </button>
+
+            <div class="auth-divider">or</div>
+
+            <p style="text-align:center; font-size:0.88rem; color:#888;">
+                Already have an account? 
+                <a href="#" style="color:#5277bc; font-weight:600;" onclick="switchTab('login')">Sign in</a>
+            </p>
+        </div>
+
+    </div>
+</div>
